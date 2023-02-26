@@ -1,1 +1,339 @@
-const _0x244f4f=_0x51ba;(function(_0x371f12,_0x4fec3c){const _0x4247fc=_0x51ba,_0x47902b=_0x371f12();while(!![]){try{const _0x5b6bd3=-parseInt(_0x4247fc(0xcb))/0x1*(parseInt(_0x4247fc(0x7d))/0x2)+parseInt(_0x4247fc(0x91))/0x3+-parseInt(_0x4247fc(0x79))/0x4+-parseInt(_0x4247fc(0xaa))/0x5+parseInt(_0x4247fc(0xbd))/0x6+parseInt(_0x4247fc(0xb4))/0x7+parseInt(_0x4247fc(0xc3))/0x8;if(_0x5b6bd3===_0x4fec3c)break;else _0x47902b['push'](_0x47902b['shift']());}catch(_0x4074b9){_0x47902b['push'](_0x47902b['shift']());}}}(_0x5128,0x19541),process[_0x244f4f(0x8f)][_0x244f4f(0xc1)]='0');import'./config.js';import{createRequire}from'module';function _0x51ba(_0xa16d48,_0x345f81){const _0x512836=_0x5128();return _0x51ba=function(_0x51baf9,_0xba5be3){_0x51baf9=_0x51baf9-0x77;let _0x4c83e8=_0x512836[_0x51baf9];return _0x4c83e8;},_0x51ba(_0xa16d48,_0x345f81);}import _0x1d9bce,{join}from'path';import{fileURLToPath,pathToFileURL}from'url';function _0x5128(){const _0x5bcbf6=['message.delete','chain','2gAUPYU','readyState','sRevoke','1.0.0','PORT','statusCode','data','reloadHandler','log','connection.update','error','new\x20plugin\x20-\x20\x27','groupsUpdate','creds.update','filter','participantsUpdate','spromote','The\x20Guru-Bot','env','The\x20name\x20of\x20the\x20group\x20has\x20been\x20changed\x20to\x20\x0a@group','30801hkieEt','freeze','chats','bye','The\x20group\x20link\x20has\x20been\x20changed\x20to\x20\x0a@revoke','webp','handler','.data.json','Hii,\x20@user\x0aWelcome\x20to\x20@group','\x5c$&','default','credsUpdate','Description\x20has\x20been\x20changed\x20to\x20\x0a@desc','color','goodbye\x20@user','APIs','ffmpeg','isInit','The\x20group\x20icon\x20has\x20been\x20changed','map','bind','forEach','__filename','@user\x20demoted','support','46775utYZaR','output','url','__require','--version','close','groups.update','connect','Quick\x20Test\x20Done','now','1445906IQXGtj','@adiwajshing/baileys','?update=','all','database.json','sIcon','cyan','logger','APIKeys','730848Xeundt','guru','push','✅\x20\x20Auto\x20clear\x20\x20|\x20tmp\x20folder\x20cleared','NODE_TLS_REJECT_UNAUTHORIZED','catch','901976kKRibC','authFile','server','isFile','plugins','magick','./handler.js?update=','exitProcess','187381nLPHxn','slice','syntax\x20error\x20while\x20loading\x20\x27','localeCompare','removeAllListeners','timestamp','onDelete','conn','./tmp','then','test','reload','-filter_complex','autocleartmp','Stickers\x20may\x20not\x20work\x20without\x20imagemagick\x20if\x20libwebp\x20on\x20ffmpeg\x20doesnt\x20isntalled\x20(pkg\x20install\x20imagemagick)','info','warn','./plugins/index','race','-loglevel','Please\x20install\x20ffmpeg\x20for\x20sending\x20videos\x20(pkg\x20install\x20ffmpeg)','off','convert','READ','loadDatabase','parse','entries','welcome','payload','argv','prefix','Stickers\x20may\x20not\x20animated\x20without\x20libwebp\x20on\x20ffmpeg\x20(--enable-ibwebp\x20while\x20compiling\x20ffmpeg)','./server.js','__dirname','useSingleFileAuthState','-hide_banner','keys','length','deleted\x20plugin\x20-\x20\x27','win32','group-participants.update','DATABASE','mongodbv2','opts','sdemote','@user\x20is\x20now\x20admin','module','dirname','603596VtqAzc','ffprobe'];_0x5128=function(){return _0x5bcbf6;};return _0x5128();}import{platform}from'process';import*as _0x2e08a4 from'ws';import{readdirSync,statSync,unlinkSync,existsSync,readFileSync,watch,rmSync}from'fs';import _0x40de42 from'yargs';import{spawn}from'child_process';import _0x3fff7b from'lodash';import _0x54c1f4 from'chalk';import _0x3ee486 from'syntax-error';import{tmpdir}from'os';import{format}from'util';import{makeWASocket,protoType,serialize}from'./lib/simple.js';import{Low,JSONFile}from'lowdb';import _0x31bfd6 from'pino';import{mongoDB,mongoDBV2}from'./lib/mongoDB.js';import _0x5b9cb3 from'./lib/store.js';const {DisconnectReason,useMultiFileAuthState}=await import(_0x244f4f(0xb5)),{CONNECTING}=_0x2e08a4,{chain}=_0x3fff7b,PORT=process[_0x244f4f(0x8f)][_0x244f4f(0x81)]||process[_0x244f4f(0x8f)]['SERVER_PORT']||0xbb8;protoType(),serialize(),global[_0x244f4f(0xa7)]=function filename(_0x117064=import.meta[_0x244f4f(0xac)],_0x8d521=platform!==_0x244f4f(0xf2)){const _0x42750a=_0x244f4f;return _0x8d521?/file:\/\/\//[_0x42750a(0xd5)](_0x117064)?fileURLToPath(_0x117064):_0x117064:pathToFileURL(_0x117064)['toString']();},global['__dirname']=function dirname(_0xa30175){const _0x42bc21=_0x244f4f;return _0x1d9bce[_0x42bc21(0x78)](global[_0x42bc21(0xa7)](_0xa30175,!![]));},global[_0x244f4f(0xad)]=function require(_0x4c70dd=import.meta[_0x244f4f(0xac)]){return createRequire(_0x4c70dd);},global['API']=(_0x50ff5f,_0x3a4015='/',_0x30a7fe={},_0x2b9913)=>(_0x50ff5f in global[_0x244f4f(0xa0)]?global[_0x244f4f(0xa0)][_0x50ff5f]:_0x50ff5f)+_0x3a4015+(_0x30a7fe||_0x2b9913?'?'+new URLSearchParams(Object[_0x244f4f(0xe5)]({..._0x30a7fe,..._0x2b9913?{[_0x2b9913]:global[_0x244f4f(0xbc)][_0x50ff5f in global[_0x244f4f(0xa0)]?global['APIs'][_0x50ff5f]:_0x50ff5f]}:{}})):''),global[_0x244f4f(0xd0)]={'start':new Date()};const __dirname=global[_0x244f4f(0xec)](import.meta['url']);global[_0x244f4f(0xf6)]=new Object(_0x40de42(process[_0x244f4f(0xe8)][_0x244f4f(0xcc)](0x2))[_0x244f4f(0xca)](![])[_0x244f4f(0xe4)]()),global[_0x244f4f(0xe9)]=new RegExp('^['+(opts[_0x244f4f(0xe9)]||'‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\x5c-')['replace'](/[|\\{}()[\]^$+*?.\-\^]/g,_0x244f4f(0x9a))+']'),global['opts']['db']=dbase,global['db']=new Low(/https?:\/\//['test'](opts['db']||'')?new cloudDBAdapter(opts['db']):/mongodb(\+srv)?:\/\//i[_0x244f4f(0xd5)](opts['db'])?opts[_0x244f4f(0xf5)]?new mongoDBV2(opts['db']):new mongoDB(opts['db']):new JSONFile((opts['_'][0x0]?opts['_'][0x0]+'_':'')+_0x244f4f(0xb8))),global[_0x244f4f(0xf4)]=global['db'],global[_0x244f4f(0xe3)]=async function loadDatabase(){const _0x3a9eb6=_0x244f4f;if(global['db']['READ'])return new Promise(_0x730886=>setInterval(async function(){const _0x3efb4a=_0x51ba;!global['db'][_0x3efb4a(0xe2)]&&(clearInterval(this),_0x730886(global['db'][_0x3efb4a(0x83)]==null?global[_0x3efb4a(0xe3)]():global['db']['data']));},0x1*0x3e8));if(global['db'][_0x3a9eb6(0x83)]!==null)return;global['db'][_0x3a9eb6(0xe2)]=!![],await global['db']['read']()[_0x3a9eb6(0xc2)](console[_0x3a9eb6(0x87)]),global['db'][_0x3a9eb6(0xe2)]=null,global['db']['data']={'users':{},'chats':{},'stats':{},'msgs':{},'sticker':{},'settings':{},...global['db'][_0x3a9eb6(0x83)]||{}},global['db'][_0x3a9eb6(0x7c)]=chain(global['db'][_0x3a9eb6(0x83)]);},loadDatabase(),global[_0x244f4f(0xc4)]=(opts['_'][0x0]||_0x244f4f(0xbe))+_0x244f4f(0x98);const {state,saveState}=_0x5b9cb3[_0x244f4f(0xed)](global[_0x244f4f(0xc4)]),connectionOptions={'printQRInTerminal':!![],'auth':state,'logger':_0x31bfd6({'level':'silent'}),'browser':[_0x244f4f(0x8e),'Safari',_0x244f4f(0x80)]};global[_0x244f4f(0xd2)]=makeWASocket(connectionOptions),conn['isInit']=![];!opts[_0x244f4f(0xd5)]&&setInterval(async()=>{const _0x35a7ff=_0x244f4f;if(global['db'][_0x35a7ff(0x83)])await global['db']['write']()[_0x35a7ff(0xc2)](console['error']);if(opts[_0x35a7ff(0xd8)])try{clearTmp();}catch(_0x36aa08){console['error'](_0x36aa08);}},0x3c*0x3e8);if(opts[_0x244f4f(0xc5)])(await import(_0x244f4f(0xeb)))['default'](global[_0x244f4f(0xd2)],PORT);async function clearTmp(){const _0x28b136=_0x244f4f,_0x6fc46d=[tmpdir(),join(__dirname,_0x28b136(0xd3))],_0x5b3c1d=[];return _0x6fc46d[_0x28b136(0xa6)](_0x24f9e2=>readdirSync(_0x24f9e2)[_0x28b136(0xa6)](_0x5443e3=>_0x5b3c1d[_0x28b136(0xbf)](join(_0x24f9e2,_0x5443e3)))),_0x5b3c1d[_0x28b136(0xa4)](_0x36fd92=>{const _0x5ab69d=_0x28b136,_0x4617e3=statSync(_0x36fd92);if(_0x4617e3[_0x5ab69d(0xc6)]()&&Date['now']()-_0x4617e3['mtimeMs']>=0x3e8*0x3c*0x1)return unlinkSync(_0x36fd92);return![];});}setInterval(async()=>{const _0x4e9b8d=_0x244f4f;var _0x23f17c=await clearTmp();console[_0x4e9b8d(0x85)](_0x54c1f4[_0x4e9b8d(0xba)](_0x4e9b8d(0xc0)));},0xea60);async function connectionUpdate(_0x49e7ff){const _0x112a91=_0x244f4f,{connection:_0xe3e33a,lastDisconnect:_0x4d65a2,isNewLogin:_0x8c1470}=_0x49e7ff;if(_0x8c1470)conn[_0x112a91(0xa2)]=!![];const _0x52b731=_0x4d65a2?.['error']?.['output']?.[_0x112a91(0x82)]||_0x4d65a2?.[_0x112a91(0x87)]?.[_0x112a91(0xab)]?.[_0x112a91(0xe7)]?.[_0x112a91(0x82)];_0x52b731&&_0x52b731!==DisconnectReason['loggedOut']&&conn?.['ws'][_0x112a91(0x7e)]!==CONNECTING&&(console[_0x112a91(0x85)](await global[_0x112a91(0x84)](!![])[_0x112a91(0xc2)](console[_0x112a91(0x87)])),global[_0x112a91(0xd0)][_0x112a91(0xb1)]=new Date());if(global['db']['data']==null)loadDatabase();}process['on']('uncaughtException',console[_0x244f4f(0x87)]);let isInit=!![],handler=await import('./handler.js');global[_0x244f4f(0x84)]=async function(_0x4ba67e){const _0x4d1c13=_0x244f4f;try{const _0x58fc7b=await import(_0x4d1c13(0xc9)+Date[_0x4d1c13(0xb3)]())[_0x4d1c13(0xc2)](console[_0x4d1c13(0x87)]);if(Object[_0x4d1c13(0xef)](_0x58fc7b||{})[_0x4d1c13(0xf0)])handler=_0x58fc7b;}catch(_0x16f1f0){console[_0x4d1c13(0x87)](_0x16f1f0);}if(_0x4ba67e){const _0x1ef2cf=global[_0x4d1c13(0xd2)][_0x4d1c13(0x93)];try{global['conn']['ws'][_0x4d1c13(0xaf)]();}catch{}conn['ev'][_0x4d1c13(0xcf)](),global[_0x4d1c13(0xd2)]=makeWASocket(connectionOptions,{'chats':_0x1ef2cf}),isInit=!![];}return!isInit&&(conn['ev'][_0x4d1c13(0xe0)]('messages.upsert',conn['handler']),conn['ev'][_0x4d1c13(0xe0)](_0x4d1c13(0xf3),conn[_0x4d1c13(0x8c)]),conn['ev'][_0x4d1c13(0xe0)](_0x4d1c13(0xb0),conn['groupsUpdate']),conn['ev'][_0x4d1c13(0xe0)](_0x4d1c13(0x7b),conn[_0x4d1c13(0xd1)]),conn['ev'][_0x4d1c13(0xe0)](_0x4d1c13(0x86),conn['connectionUpdate']),conn['ev']['off'](_0x4d1c13(0x8a),conn['credsUpdate'])),conn[_0x4d1c13(0xe6)]=_0x4d1c13(0x99),conn[_0x4d1c13(0x94)]=_0x4d1c13(0x9f),conn[_0x4d1c13(0x8d)]=_0x4d1c13(0xf8),conn[_0x4d1c13(0xf7)]=_0x4d1c13(0xa8),conn['sDesc']=_0x4d1c13(0x9d),conn['sSubject']=_0x4d1c13(0x90),conn[_0x4d1c13(0xb9)]=_0x4d1c13(0xa3),conn[_0x4d1c13(0x7f)]=_0x4d1c13(0x95),conn[_0x4d1c13(0x97)]=handler[_0x4d1c13(0x97)][_0x4d1c13(0xa5)](global[_0x4d1c13(0xd2)]),conn[_0x4d1c13(0x8c)]=handler[_0x4d1c13(0x8c)]['bind'](global[_0x4d1c13(0xd2)]),conn[_0x4d1c13(0x89)]=handler[_0x4d1c13(0x89)][_0x4d1c13(0xa5)](global[_0x4d1c13(0xd2)]),conn[_0x4d1c13(0xd1)]=handler['deleteUpdate'][_0x4d1c13(0xa5)](global[_0x4d1c13(0xd2)]),conn['connectionUpdate']=connectionUpdate[_0x4d1c13(0xa5)](global[_0x4d1c13(0xd2)]),conn[_0x4d1c13(0x9c)]=saveState[_0x4d1c13(0xa5)](global[_0x4d1c13(0xd2)],!![]),conn['ev']['on']('messages.upsert',conn[_0x4d1c13(0x97)]),conn['ev']['on'](_0x4d1c13(0xf3),conn['participantsUpdate']),conn['ev']['on'](_0x4d1c13(0xb0),conn[_0x4d1c13(0x89)]),conn['ev']['on'](_0x4d1c13(0x7b),conn[_0x4d1c13(0xd1)]),conn['ev']['on'](_0x4d1c13(0x86),conn['connectionUpdate']),conn['ev']['on']('creds.update',conn[_0x4d1c13(0x9c)]),isInit=![],!![];};const pluginFolder=global[_0x244f4f(0xec)](join(__dirname,_0x244f4f(0xdc))),pluginFilter=_0x2f62c2=>/\.js$/[_0x244f4f(0xd5)](_0x2f62c2);global['plugins']={};async function filesInit(){const _0xbb4ce=_0x244f4f;for(let _0x259170 of readdirSync(pluginFolder)[_0xbb4ce(0x8b)](pluginFilter)){try{let _0x379bdb=global[_0xbb4ce(0xa7)](join(pluginFolder,_0x259170));const _0x36bcf0=await import(_0x379bdb);global[_0xbb4ce(0xc7)][_0x259170]=_0x36bcf0[_0xbb4ce(0x9b)]||_0x36bcf0;}catch(_0x3db333){conn['logger'][_0xbb4ce(0x87)](_0x3db333),delete global[_0xbb4ce(0xc7)][_0x259170];}}}filesInit()[_0x244f4f(0xd4)](_0x5b7355=>console[_0x244f4f(0x85)](Object[_0x244f4f(0xef)](global[_0x244f4f(0xc7)])))[_0x244f4f(0xc2)](console[_0x244f4f(0x87)]),global[_0x244f4f(0xd6)]=async(_0x17cbdd,_0x51b442)=>{const _0x555e52=_0x244f4f;if(pluginFilter(_0x51b442)){let _0x389c87=global[_0x555e52(0xa7)](join(pluginFolder,_0x51b442),!![]);if(_0x51b442 in global[_0x555e52(0xc7)]){if(existsSync(_0x389c87))conn[_0x555e52(0xbb)]['info']('\x20updated\x20plugin\x20-\x20\x27'+_0x51b442+'\x27');else return conn[_0x555e52(0xbb)][_0x555e52(0xdb)](_0x555e52(0xf1)+_0x51b442+'\x27'),delete global['plugins'][_0x51b442];}else conn[_0x555e52(0xbb)]['info'](_0x555e52(0x88)+_0x51b442+'\x27');let _0x55b1c4=_0x3ee486(readFileSync(_0x389c87),_0x51b442,{'sourceType':_0x555e52(0x77),'allowAwaitOutsideFunction':!![]});if(_0x55b1c4)conn[_0x555e52(0xbb)][_0x555e52(0x87)](_0x555e52(0xcd)+_0x51b442+'\x27\x0a'+format(_0x55b1c4));else try{const _0x32b6b6=await import(global[_0x555e52(0xa7)](_0x389c87)+_0x555e52(0xb6)+Date[_0x555e52(0xb3)]());global[_0x555e52(0xc7)][_0x51b442]=_0x32b6b6[_0x555e52(0x9b)]||_0x32b6b6;}catch(_0x3580fc){conn['logger']['error']('error\x20require\x20plugin\x20\x27'+_0x51b442+'\x0a'+format(_0x3580fc)+'\x27');}finally{global[_0x555e52(0xc7)]=Object['fromEntries'](Object[_0x555e52(0xe5)](global[_0x555e52(0xc7)])['sort'](([_0x17dd82],[_0x22093b])=>_0x17dd82[_0x555e52(0xce)](_0x22093b)));}}},Object[_0x244f4f(0x92)](global[_0x244f4f(0xd6)]),watch(pluginFolder,global[_0x244f4f(0xd6)]),await global['reloadHandler']();async function _quickTest(){const _0x8f3aa4=_0x244f4f;let _0x225249=await Promise[_0x8f3aa4(0xb7)]([spawn(_0x8f3aa4(0xa1)),spawn(_0x8f3aa4(0x7a)),spawn(_0x8f3aa4(0xa1),[_0x8f3aa4(0xee),_0x8f3aa4(0xde),_0x8f3aa4(0x87),_0x8f3aa4(0xd7),_0x8f3aa4(0x9e),'-frames:v','1','-f',_0x8f3aa4(0x96),'-']),spawn(_0x8f3aa4(0xe1)),spawn(_0x8f3aa4(0xc8)),spawn('gm'),spawn('find',[_0x8f3aa4(0xae)])][_0x8f3aa4(0xa4)](_0x19ffad=>{const _0x1e9493=_0x8f3aa4;return Promise[_0x1e9493(0xdd)]([new Promise(_0xd1296c=>{const _0x312154=_0x1e9493;_0x19ffad['on'](_0x312154(0xaf),_0x54dd38=>{_0xd1296c(_0x54dd38!==0x7f);});}),new Promise(_0x407155=>{_0x19ffad['on']('error',_0x2fb0b9=>_0x407155(![]));})]);})),[_0x420d0b,_0x20be90,_0x54b0cb,_0x162113,_0xc5d4ed,_0xc44a58,_0x3d97d8]=_0x225249;console[_0x8f3aa4(0x85)](_0x225249);let _0x178443=global['support']={'ffmpeg':_0x420d0b,'ffprobe':_0x20be90,'ffmpegWebp':_0x54b0cb,'convert':_0x162113,'magick':_0xc5d4ed,'gm':_0xc44a58,'find':_0x3d97d8};Object['freeze'](global[_0x8f3aa4(0xa9)]);if(!_0x178443[_0x8f3aa4(0xa1)])conn[_0x8f3aa4(0xbb)]['warn'](_0x8f3aa4(0xdf));if(_0x178443[_0x8f3aa4(0xa1)]&&!_0x178443['ffmpegWebp'])conn[_0x8f3aa4(0xbb)]['warn'](_0x8f3aa4(0xea));if(!_0x178443[_0x8f3aa4(0xe1)]&&!_0x178443[_0x8f3aa4(0xc8)]&&!_0x178443['gm'])conn[_0x8f3aa4(0xbb)][_0x8f3aa4(0xdb)](_0x8f3aa4(0xd9));}_quickTest()[_0x244f4f(0xd4)](()=>conn['logger'][_0x244f4f(0xda)](_0x244f4f(0xb2)))[_0x244f4f(0xc2)](console[_0x244f4f(0x87)]);
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+import './config.js'
+
+import path, { join } from 'path'
+import { platform } from 'process'
+import { fileURLToPath, pathToFileURL } from 'url'
+import { createRequire } from 'module' // Bring in the ability to create the 'require' method
+global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') { return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString() }; global.__dirname = function dirname(pathURL) { return path.dirname(global.__filename(pathURL, true)) }; global.__require = function require(dir = import.meta.url) { return createRequire(dir) }
+import * as ws from 'ws'
+import {
+    readdirSync,
+    statSync,
+    unlinkSync,
+    existsSync,
+    readFileSync,
+    watch
+} from 'fs'
+import yargs from 'yargs'
+import { spawn } from 'child_process'
+import lodash from 'lodash'
+import syntaxerror from 'syntax-error'
+import chalk from 'chalk'
+import { tmpdir } from 'os'
+import { format } from 'util'
+import pino from 'pino'
+import { Boom } from '@hapi/boom'
+import {
+    useMultiFileAuthState,
+    DisconnectReason,
+    fetchLatestBaileysVersion 
+   } from '@adiwajshing/baileys'
+import { Low, JSONFile } from 'lowdb'
+
+import { makeWASocket, protoType, serialize } from './lib/simple.js'
+import storeSys from './lib/store2.js'
+import {
+    mongoDB,
+    mongoDBV2
+} from './lib/mongoDB.js'
+
+const { CONNECTING } = ws
+const { chain } = lodash
+const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
+
+protoType()
+serialize()
+
+global.API = (name, path = '/', query = {}, apikeyqueryname) => (name in global.APIs ? global.APIs[name] : name) + path + (query || apikeyqueryname ? '?' + new URLSearchParams(Object.entries({ ...query, ...(apikeyqueryname ? { [apikeyqueryname]: global.APIKeys[name in global.APIs ? global.APIs[name] : name] } : {}) })) : '')
+// global.Fn = function functionCallBack(fn, ...args) { return fn.call(global.conn, ...args) }
+global.timestamp = {
+  start: new Date
+}
+
+const __dirname = global.__dirname(import.meta.url)
+
+global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+global.prefix = new RegExp('^[' + (opts['prefix'] || '‎xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-').replace(/[|\\{}()[\]^$+*?.\-\^]/g, '\\$&') + ']')
+
+global.db = new Low(
+  /https?:\/\//.test(opts['db'] || '') ?
+    new cloudDBAdapter(opts['db']) : /mongodb(\+srv)?:\/\//i.test(opts['db']) ?
+      (opts['mongodbv2'] ? new mongoDBV2(opts['db']) : new mongoDB(opts['db'])) :
+      new JSONFile(`${opts._[0] ? opts._[0] + '_' : ''}database.json`)
+)
+global.DATABASE = global.db // Backwards Compatibility
+global.loadDatabase = async function loadDatabase() {
+    if (db.READ) return new Promise((resolve) => setInterval(async function () {
+        if (!db.READ) {
+            clearInterval(this)
+            resolve(db.data == null ? global.loadDatabase() : db.data)
+        }
+    }, 1 * 1000))
+    if (db.data !== null) return
+    db.READ = true
+    await db.read().catch(console.error)
+    db.READ = null
+    db.data = {
+        users: {},
+        chats: {},
+        stats: {},
+        msgs: {},
+        sticker: {},
+        settings: {},
+        ...(db.data || {})
+    }
+    global.db.chain = chain(db.data)
+}
+loadDatabase()
+
+global.authFolder = storeSys.fixFileName(`${opts._[0] || ''}sessions`)
+    let { state, saveCreds } = await useMultiFileAuthState(path.resolve('./sessions'))
+    let { version, isLatest } = await fetchLatestBaileysVersion()
+    console.log(`using WA v${version.join('.')}, isLatest: ${isLatest}`)
+/*const store = storeSys.makeInMemoryStore()
+const sess = `${opts._[0] || 'elaina'}.store.json`
+store.readFromFile(sess)
+global.store = store*/
+
+const connectionOptions = {
+	    version,
+        printQRInTerminal: true,
+        auth: state,
+        browser: ['Elaina(イレイナ)', 'Safari', '3.1.0'], 
+	      patchMessageBeforeSending: (message) => {
+                const requiresPatch = !!(
+                    message.buttonsMessage 
+                    || message.templateMessage
+                    || message.listMessage
+                );
+                if (requiresPatch) {
+                    message = {
+                        viewOnceMessage: {
+                            message: {
+                                messageContextInfo: {
+                                    deviceListMetadataVersion: 2,
+                                    deviceListMetadata: {},
+                                },
+                                ...message,
+                            },
+                        },
+                    };
+                }
+
+                return message;
+            }, 
+      // logger: pino({ level: 'silent' })
+}
+
+global.conn = makeWASocket(connectionOptions)
+conn.isInit = false
+
+if (!opts['test']) {
+  (await import('./server.js')).default(PORT)
+  setInterval(async () => {
+    if (global.db.data) await global.db.write().catch(console.error)
+   // if (opts['autocleartmp']) try {
+      clearTmp()
+  //  } catch (e) { console.error(e) }
+  }, 60 * 1000)
+}
+
+function clearTmp() {
+  const tmp = [tmpdir(), join(__dirname, './tmp')]
+  const filename = []
+  tmp.forEach(dirname => readdirSync(dirname).forEach(file => filename.push(join(dirname, file))))
+  return filename.map(file => {
+    const stats = statSync(file)
+    if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
+    return false
+  })
+}
+
+function clearSessions(folder = 'sessions') {
+	let filename = []
+	readdirSync(folder).forEach(file => filename.push(join(folder, file)))
+	return filename.map(file => {
+		let stats = statSync(file)
+		if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 120)) { // 1 hours
+			console.log('Deleted sessions', file)
+			return unlinkSync(file)
+		}
+		return false
+	})
+}
+
+async function connectionUpdate(update) {
+    const { receivedPendingNotifications, connection, lastDisconnect, isOnline, isNewLogin } = update
+  if (isNewLogin) conn.isInit = true
+  if (connection == 'connecting') console.log(chalk.redBright('⚡ Mengaktifkan Bot, Mohon tunggu sebentar...'))
+  if (connection == 'open') console.log(chalk.green('✅ Tersambung'))
+  if (isOnline == true) console.log(chalk.green('Status Aktif'))
+  if (isOnline == false) console.log(chalk.red('Status Mati'))
+  if (receivedPendingNotifications) console.log(chalk.yellow('Menunggu Pesan Baru'))
+  if (connection == 'close') console.log(chalk.red('⏱️ koneksi terputus & mencoba menyambung ulang...'))
+  global.timestamp.connect = new Date
+  if (lastDisconnect && lastDisconnect.error && lastDisconnect.error.output && lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut && conn.ws.readyState !== CONNECTING) {
+    console.log(global.reloadHandler(true))
+  } 
+  if (global.db.data == null) await global.loadDatabase()
+}
+
+process.on('uncaughtException', console.error)
+// let strQuot = /(["'])(?:(?=(\\?))\2.)*?\1/
+
+let isInit = true
+let handler = await import('./handler.js')
+global.reloadHandler = async function (restatConn) {
+    try {
+        const Handler = await import(`./handler.js?update=${Date.now()}`).catch(console.error)
+        if (Object.keys(Handler || {}).length) handler = Handler
+    } catch (e) {
+        console.error(e)
+    }
+    if (restatConn) {
+        const oldChats = global.conn.chats
+        try { global.conn.ws.close() } catch { }
+        conn.ev.removeAllListeners()
+        global.conn = makeWASocket(connectionOptions, { chats: oldChats })
+        isInit = true
+    }    
+  if (!isInit) {
+    conn.ev.off('messages.upsert', conn.handler)
+    conn.ev.off('group-participants.update', conn.participantsUpdate)
+    conn.ev.off('groups.update', conn.groupsUpdate)
+    conn.ev.off('message.delete', conn.onDelete)
+    conn.ev.off('connection.update', conn.connectionUpdate)
+    conn.ev.off('creds.update', conn.credsUpdate)
+  }
+
+  conn.welcome = '❖━━━━━━[ ᴡᴇʟᴄᴏᴍᴇ ]━━━━━━❖\n\n┏––––––━━━━━━━━•\n│☘︎ @subject\n┣━━━━━━━━┅┅┅\n│( 👋 Hallo @user)\n├[ ɪɴᴛʀᴏ ]—\n│ ɴᴀᴍᴀ: \n│ ᴜᴍᴜʀ: \n│ ɢᴇɴᴅᴇʀ:\n┗––––––━━┅┅┅\n\n––––––┅┅ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ┅┅––––––\n@desc'
+  conn.bye = '❖━━━━━━[ ʟᴇᴀᴠɪɴɢ ]━━━━━━❖\n𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 @user 👋😃'
+  conn.spromote = '@user Sekarang jadi admin!'
+  conn.sdemote = '@user Sekarang bukan lagi admin!'
+  conn.sDesc = 'Deskripsi telah diubah menjadi \n@desc'
+  conn.sSubject = 'Judul grup telah diubah menjadi \n@subject'
+  conn.sIcon = 'Icon grup telah diubah!'
+  conn.sRevoke = 'Link group telah diubah ke \n@revoke'
+  conn.sAnnounceOn = 'Group telah di tutup!\nsekarang hanya admin yang dapat mengirim pesan.'
+  conn.sAnnounceOff = 'Group telah di buka!\nsekarang semua peserta dapat mengirim pesan.'
+  conn.sRestrictOn = 'Edit Info Grup di ubah ke hanya admin!'
+  conn.sRestrictOff = 'Edit Info Grup di ubah ke semua peserta!'
+
+  conn.handler = handler.handler.bind(global.conn)
+  conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
+  conn.groupsUpdate = handler.groupsUpdate.bind(global.conn)
+  conn.onDelete = handler.deleteUpdate.bind(global.conn)
+  conn.connectionUpdate = connectionUpdate.bind(global.conn)
+  conn.credsUpdate = saveCreds.bind(global.conn)
+
+  conn.ev.on('messages.upsert', conn.handler)
+  conn.ev.on('group-participants.update', conn.participantsUpdate)
+  conn.ev.on('groups.update', conn.groupsUpdate)
+  conn.ev.on('message.delete', conn.onDelete)
+  conn.ev.on('connection.update', conn.connectionUpdate)
+  conn.ev.on('creds.update', conn.credsUpdate)
+  isInit = false
+  return true
+
+}
+
+const pluginFolder = global.__dirname(join(__dirname, './plugins/index'))
+const pluginFilter = filename => /\.js$/.test(filename)
+global.plugins = {}
+async function filesInit() {
+  for (let filename of readdirSync(pluginFolder).filter(pluginFilter)) {
+    try {
+      let file = global.__filename(join(pluginFolder, filename))
+      const module = await import(file)
+      global.plugins[filename] = module.default || module
+    } catch (e) {
+      conn.logger.error(e)
+      delete global.plugins[filename]
+    }
+  }
+}
+filesInit().then(_ => console.log(Object.keys(global.plugins))).catch(console.error)
+
+global.reload = async (_ev, filename) => {
+  if (pluginFilter(filename)) {
+    let dir = global.__filename(join(pluginFolder, filename), true)
+    if (filename in global.plugins) {
+      if (existsSync(dir)) conn.logger.info(`re - require plugin '${filename}'`)
+      else {
+        conn.logger.warn(`deleted plugin '${filename}'`)
+        return delete global.plugins[filename]
+      }
+    } else conn.logger.info(`requiring new plugin '${filename}'`)
+    let err = syntaxerror(readFileSync(dir), filename, {
+      sourceType: 'module',
+      allowAwaitOutsideFunction: true
+    })
+    if (err) conn.logger.error(`syntax error while loading '${filename}'\n${format(err)}`)
+    else try {
+      const module = (await import(`${global.__filename(dir)}?update=${Date.now()}`))
+      global.plugins[filename] = module.default || module
+    } catch (e) {
+      conn.logger.error(`error require plugin '${filename}\n${format(e)}'`)
+    } finally {
+      global.plugins = Object.fromEntries(Object.entries(global.plugins).sort(([a], [b]) => a.localeCompare(b)))
+    }
+  }
+}
+Object.freeze(global.reload)
+watch(pluginFolder, global.reload)
+await global.reloadHandler()
+
+// Quick Test
+
+async function _quickTest() {
+    let test = await Promise.all([
+        spawn('ffmpeg'),
+        spawn('ffprobe'),
+        spawn('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-filter_complex', 'color', '-frames:v', '1', '-f', 'webp', '-']),
+        spawn('convert'),
+        spawn('magick'),
+        spawn('gm'),
+        spawn('find', ['--version'])
+    ].map(p => {
+        return Promise.race([
+            new Promise(resolve => {
+                p.on('close', code => {
+                    resolve(code !== 127)
+                })
+            }),
+            new Promise(resolve => {
+                p.on('error', _ => resolve(false))
+            })
+        ])
+    }))
+    let [ffmpeg, ffprobe, ffmpegWebp, convert, magick, gm, find] = test
+    console.log(test)
+    let s = global.support = {
+        ffmpeg,
+        ffprobe,
+        ffmpegWebp,
+        convert,
+        magick,
+        gm,
+        find
+    }
+    // require('./lib/sticker').support = s
+    Object.freeze(global.support)
+
+    if (!s.ffmpeg) {
+        conn.logger.warn(`Silahkan install ffmpeg terlebih dahulu agar bisa mengirim video`)
+    }
+
+    if (s.ffmpeg && !s.ffmpegWebp) {
+        conn.logger.warn('Sticker Mungkin Tidak Beranimasi tanpa libwebp di ffmpeg (--enable-ibwebp while compiling ffmpeg)')
+    }
+
+    if (!s.convert && !s.magick && !s.gm) {
+        conn.logger.warn('Fitur Stiker Mungkin Tidak Bekerja Tanpa imagemagick dan libwebp di ffmpeg belum terinstall (pkg install imagemagick)')
+    }
+
+}
+_quickTest()
+    .then(() => conn.logger.info('☑️ Quick Test Done , nama file session ~> creds.json'))
+    .catch(console.error)
