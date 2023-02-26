@@ -538,11 +538,11 @@ export async function handler(chatUpdate) {
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                    this.reply(m.chat, `[❗] Limit harian kamu telah habis, silahkan beli melalui *${usedPrefix}buy limit*`, m)
+                    this.reply(m.chat, `[❗] Your daily limit has run out, please buy through *${usedPrefix}buy limit*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
-                    this.reply(m.chat, `[💬] Diperlukan level ${plugin.level} untuk menggunakan perintah ini\n*Level mu:* ${_user.level} 📊`, m)
+                    this.reply(m.chat, `[💬] Required level ${plugin.level} to use this command\n*Level :* ${_user.level} 📊`, m)
                     continue // If the level has not been reached
                 }
                 let extra = {
@@ -598,7 +598,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + ' ʟɪᴍɪᴛ ᴋᴀᴍᴜ ᴛᴇʀᴘᴀᴋᴀɪ ✔️')
+                        m.reply(+m.limit + ' your limit used ✔️')
                 }
                 break
             }
@@ -703,7 +703,7 @@ export async function participantsUpdate({ id, participants, action }) {
                             
                          //this.sendFile(id, action === 'add' ? wel : lea, pp, 'pp.jpg', text, null, false, { mentions: [user] })
                        await this.sendHydrated(id, global.ucapan, text, action === 'add' ? wel.toBuffer() : lea.toBuffer(), sgc, (action == 'add' ? '💌 WELCOME' : '🐾 BYE'), user.split`@`[0], 'ɴᴜᴍʙᴇʀ ᴘᴀʀᴛɪᴄɪᴘᴀɴᴛ', [
-      [action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'bilek']], null, fkontak, { mentions: [user] })
+      [action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Guru']], null, fkontak, { mentions: [user] })
                         /*let wel = API('males', '/welcome2', {
                                 profile: pp,
                                 username: await this.getName(user),
@@ -765,7 +765,7 @@ export async function groupsUpdate(groupsUpdate) {
         if (groupUpdate.restrict == true) text = (chats.sRestrictOn || this.sRestrictOn || conn.sRestrictOn || '*Group has been all participants!*')
         if (groupUpdate.restrict == false) text = (chats.sRestrictOff || this.sRestrictOff || conn.sRestrictOff || '*Group has been only admin!*')
         if (!text) continue
-         this.send2ButtonDoc(id, text.trim(), author, '🔖 Matikan Fitur', '.off detect', '🎀 Menu', '.menu', fakes, adReply)
+         this.send2ButtonDoc(id, text.trim(), author, '🔖 Turn off Features', '.off detect', '🎀 Menu', '.menu', fakes, adReply)
     }
 }
 
@@ -781,12 +781,12 @@ export async function deleteUpdate(message) {
         if (chat.delete)
             return 
             this.send2ButtonDoc(msg.chat, `
-Terdeteksi @${participant.split`@`[0]} telah menghapus pesan. 
-Untuk mematikan fitur ini, ketik
+Dear @${participant.split`@`[0]} deleted a message. 
+to use this feature
 *.enable delete*
           
-Untuk menghapus pesan yang dikirim oleh Bot, reply pesan dengan perintah
-*.delete*`, author, 'ᴀɴᴛɪ - ᴅᴇʟᴇᴛᴇ', '🔖 off feature', '.on delete', '🎀 Menu', '.menu', msg, adReply)
+To delete messages sent by bots, reply to messages with commands
+*.delete*`, author, 'ᴀɴᴛɪ - ᴅᴇʟᴇᴛᴇ', '🔖 on feature', '.on delete', '🎀 Menu', '.menu', msg, adReply)
         this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
         console.error(e)
@@ -795,16 +795,16 @@ Untuk menghapus pesan yang dikirim oleh Bot, reply pesan dengan perintah
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* •',
-        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • ',
-        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* • ',
-        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • ',
-        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • ',
-        private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ*',
-        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • ',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* ',
+        rowner: '*ᴏɴʟʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ* • only creater can use',
+        owner: '*ᴏɴʟʏ ᴏᴡɴᴇʀ* • only owner can use ',
+        mods: '*ᴏɴʟʏ ᴍᴏᴅᴇʀᴀᴛᴏʀ* • only mods can use ',
+        premium: '*ᴏɴʟʏ ᴘʀᴇᴍɪᴜᴍ* • only premium users can use ',
+        group: '*ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • can be only used in groups ',
+        private: '*ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* casn only be used in dm',
+        admin: '*ᴏɴʟʏ ᴀᴅᴍɪɴ* • can only be used by admins ',
+        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* can only be used  by bot admins ',
         unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •', 
-        restrict: '*ʀᴇsᴛʀɪᴄᴛ* • ',
+        restrict: '*ʀᴇsᴛʀɪᴄᴛ* • this feature is blovcked ',
     }[type]
     if (msg) return conn.send2ButtonDoc(m.chat, msg, author, 'ᴇʀʀᴏʀ - ᴀᴄᴄᴇss ᴅᴇɴɪᴇᴅ', '💌 Creator', '.creator', '🎀 Menu', '.menu', fakes, adReply)
 }
